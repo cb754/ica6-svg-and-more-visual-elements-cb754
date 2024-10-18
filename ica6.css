@@ -36,7 +36,7 @@ header {
   color: rgba(var(--secondary-rgb), 1);
 }
 
-.header-row nav {
+.header-row nav:hover {
   position: absolute;
   left: calc(2vw + 10%);
   top: 50%;
@@ -71,6 +71,12 @@ header {
   text-decoration: none;
 }
 
+.header-row nav li:hover {
+  background-color: rgb(215, 243, 215);
+  border-radius: 3px;
+  color: var(--primary);
+}
+
 .hero {
   height: 90vh;
   background-color: rgb(var(--secondary-rgb));
@@ -87,6 +93,7 @@ header {
   border: 5px solid rgba(var(--accent-rgb), .6);
   border-radius: 15px;
   text-align: center;
+
 }
 
 .right-content {
@@ -112,6 +119,18 @@ header {
   margin: 3vh;
   padding: 1vh 1vw;
   width: 40%;
+  background-color: black;
+  color: ivory;
+  border-radius: 5px;
+  border: double;
+}
+
+.hover-button:hover {
+  background-color: rgba(0, 128, 0, 0.477);
+  color: ivory;
+  border-radius: 5px;
+  border: solid;
+  
 }
 
 
